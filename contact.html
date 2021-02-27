@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Me</title>
+</head>
+<body>
+
+    <script src="script.js" async></script>
+    
+    <div id="nav-placeholder">
+		
+	</div>
+
+    <div id="top">
+        <header>
+            <h1>Contact Us</h1>
+            <p>Please complete the information below. Fields marked with <span class="required">*</span> are required fields.</p>
+        </header>
+        <div id="data">
+            <form id="contact" method="post" action="mailto:aregi23@hotmail.com">
+                <fieldset>
+                    <legend>Your Information</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="text" class= "field" name="first-name" id="first-name" required>&nbsp;<label for="first-name">First Name*</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" class= "field" name="last-name" id="last-name" required>&nbsp;<label for="last-name">Last Name*</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" class= "field" name="street-address" id="street-address" required>&nbsp;<label for="street-address">Street Address*</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" class= "field" name="city" id="city" required>&nbsp;<label for="city">City*</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="province" id="province">
+                                    <option value="alberta">Alberta</option>
+                                    <option value="british-columbia">British Columbia</option>
+                                    <option value="manitoba">Manitoba</option>
+                                    <option value="new-brunswick">New Brunswick</option>
+                                    <option value="newfoundland-labrador">Newfoundland and Labrador</option>
+                                    <option value="nova-scotia">Nova Scotia</option>
+                                    <option value="ontario">Ontario</option>
+                                    <option value="prince-edward-island">Prince Edward Island</option>
+                                    <option value="quebec">Quebec</option>
+                                    <option value="saskatchewan">Saskatchewan</option>
+                                    <option value="northwest-territories">Northwest Territories</option>
+                                    <option value="nunavut">Nunavut</option>
+                                    <option value="yukon">Yukon</option>
+                                </select>
+                                <label for="province">Province*</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" class= "field" name="postal-code" id="postal-code" required>&nbsp;<label for="postal-code">Postal Code*</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" class= "field" name="email-address" id="email-address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Email Format" required>&nbsp;<label for="email-address">Email Address*</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" class= "field" name="phone-number" id="phone-number" pattern="[0-9]{10}" title="Phone Number Format" required>&nbsp;<label for="phone-number">Phone Number*</label><br>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit">
+                </fieldset>
+                <fieldset>
+                    <legend>Agreement</legend>
+                    <input type="radio" name="agree" value="agree" id="agree" required><label for="agree">I agree</label>
+                </fieldset>
+                <br><br><br>
+                <p>Clear Form</p>
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+#top {
+    background-color: #33ff88;
+	margin-top: 15pxd;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 10px;
+	border: 2px grey;
+    width: 1000px;
+}
+
+fieldset {
+    margin-top: 4px;
+    background-color: #8f8e6e;
+}
+
+legend {
+    color: #d46622;
+    background-color: #ccadbe;
+    border: 1px solid #72072e;
+    padding: 3px;
+    font-weight: bold;
+}
+
+table {
+    margin: 4px;
+    padding: 4px;
+}
+
+td element {
+    padding: 2px;
+}
+
+.required {
+    color: #ffa600;
+}
+
+p data{
+    padding-left: 8px;
+}
+
+* {
+    font-family: 'Enriqueta', arial, serif; line-height: 1.25; margin: 0 0 10px;
+}
+
+body {
+    background-color: #dce1e3;
+}
+
+p {
+    color: darkgoldenrod;
+}
+
+.field:hover {
+    background-color: yellow;
+}
+
+#province:hover {
+    background-color: yellow;
+}
+
+[class |= "header"] {
+    background-color: wheat;
+}
+
+#nav-placeholder {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    position:relative;
+    min-width: 100vw;
+  }
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    position:absolute;
+    min-width: 100vw;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
